@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+/* .section{
+    width: vh;
+    height:58.76px ;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    position: static;
+} */
+.header{
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    width: 85vw;
+    /* margin: auto    ; */
+    justify-content: center;
+    /* align-items: end; */
+    height: 58.76px;
+    background-color: white;
+}
+.logo{
+    align-content: center;
+    flex: 1;
+
+}
+.nav{
+    display: flex;
+    flex: 3;
+    
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    flex: 3;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.bt{
+    border: none;
+    border-radius: 5px;
+    height: 37px;
+    width: 134px;
+    background-color: #4CAF4F;
+}
+.hero{
+    display: flex;
+    width: vh;
+    height: 417px;
+    background-color:#f4f6f7;
+}
+.hcontainer{
+    display: flex;
+    width: 85%;
+    height: 350px;
+    background-color: #f4f6f7;
+    margin: auto;
+}
+.hcontent{
+    flex: 4;
+}
+.ilustration{
+    flex: 2;
+    align-content: center;
+}
+.ilus{
+    margin: auto;
+}

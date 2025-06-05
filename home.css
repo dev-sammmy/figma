@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+}
+.section{
+    /* width: 100vw; */
+    height:58.76px ;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+.header{
+    display: flex;
+    position: fixed;
+    /* right: 7.5%;
+    left: 7.5%; */
+    width: 85%;
+    padding: 0px 7.5%;
+    height: 58.76px;
+    background-color: white;
+}
+.logo{
+    align-content: center;
+    flex: 1;
+
+}
+.nav{
+    display: flex;
+    flex: 3;
+    
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    flex: 3;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.bt{
+    border: none;
+    border-radius: 5px;
+    height: 37px;
+    width: 134px;
+    color: white;
+    background-color: #4CAF4F;
+}
+.hero{
+    display: flex;
+    background-color:#f4f6f7;
+}
+.hcontainer{
+    display: flex;
+    width: 85%;
+    height: 350px;
+    background-color: #f4f6f7;
+    margin: auto;
+}
+.hcontent{
+    flex: 4;
+}
+.heone{
+    font-size: 46px;
+    margin-bottom: 0;
+}
+.green{
+    font-size: 46px;
+    color: #4CAF4F;
+    margin-top: 0;
+}
+.grbt{
+    background-color: #4CAF4F;
+    border: none;
+    height: 37px;
+    width: 89px;
+    color: #f4f6f7;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.ilustration{
+    flex: 2;
+    align-content: center;
+}
+.ilus{
+    margin: auto;
+}
+.line{
+    width: 100vw;
+    align-items: center;
+}
+.clients{
+    width: 85%;
+    margin: auto;   
+    text-align: center;
+    padding-top: 10px;
+}
+.brands{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.bhed{
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.bx{
+    padding: 10px;
+    width: 20%;
+    box-shadow:1px 5px 5px 2px rgb(224, 241, 247);
+}
+.bd{
+     display: flex;
+    height: 301px;
+    margin-top: 20px;
+}
+.done{
+    align-items: center;
+    margin: auto;
+    flex: 2;
+}
+.dtwo{
+    margin: auto;
+    padding-right: 50px;
+    text-align: left;
+    flex: 4;
+}
+.bbt{
+    background-color: #4CAF4F;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.help{
+    background-color: #f4f6f7;
+    height: 202px;
+    margin-top: 20px;
+}
+.helpd1{
+    display: flex;
+    text-align: center;
+    width: 85%;
+    height: 202px;
+    margin: auto;
+}
+.dne{
+    text-align: left;
+    margin: auto;
+    padding: auto;
+    flex: 4;
+}
+.dneh2{
+    color: #4CAF4F;
+    font-size:30px;
+    font-weight: bold;
+    margin: 0;
+}
+.dneh1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.dwo{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 4;
+}
+.child{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 280px;
+    height: 43px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    
+}
+.how{
+    margin-top: 20px;
+    width: 85%;
+    margin: 20px auto;
+    height: 301px;
+    display: flex;  
+}
+.mob{
+    flex: 4;
+}
+.design{
+    flex:5;
+    padding-right: 30px ;
+    text-align: left;
+}
+.tesla{
+    background-color: #f4f6f7;
+    height: 272px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.tesl{
+    width: 85%;
+    display: flex;
+    margin:auto;
+}
+.tes{
+    flex: 2;
+    margin: 20px 30px auto;
+    justify-content: center;
+}
+.tescontent{
+    flex: 3;
+    padding-top: 10px;
+}
+.icondiv{
+    display: flex;
+}
+.frame1{
+    display: flex;
+    flex: 4;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.frame{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.caring{
+    width: 85%;
+    height: 450px;
+    margin: 20px auto;
+    text-align: center;
+}
+.axis{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.chil{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.childiv{
+    background-color:#f4f6f7;
+    height: 124px;
+    width: 221px;
+    border-radius: 5px;
+    margin-top: -80px;
+}
+.grey{
+    background-color: #f4f6f7;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.nex{
+    background-color: #263238;
+    height: 230px;
+}
+.next{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+.cent{
+    flex: 4;
+    color: white;
+    padding-top: 30px;
+}
+
+.iconslast{
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    margin-top: 30px;
+}
+.company{
+    flex: 5;
+    display: flex;
+}
+.comdiv{
+    flex: 2;
+    color: white;
+}
+.comdi{
+    flex: 3;
+    color: white;
+}
+.input{
+    background-color: #56585d;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    margin-top: 15px;
+    color: white;
+}
+::placeholder {
+  color:white;
+  opacity: 1; /* Firefox */
+}
+.send{
+    margin-right: -20px;
+}
